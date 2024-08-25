@@ -1,0 +1,81 @@
+/* Basic Reset */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Modern Typography */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern, clean font */
+    font-size: 16px; /* Base font size */
+    line-height: 1.6; /* Comfortable line spacing */
+    color: #333; /* Darker gray for body text */
+    background-color: #f4f4f4; /* Light background color */
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif; /* Headings with a modern, bold font */
+    color: #2c3e50; /* Darker color for headings */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em; /* Larger main heading */
+    font-weight: 700; /* Bold weight for main heading */
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #3498db; /* Modern blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2980b9; /* Darker blue on hover */
+    text-decoration: underline;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #333; /* Dark background for the nav */
+    overflow: hidden; /* Clear floats */
+    padding: 0 20px; /* Add some padding to the sides */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-around; /* Spread out the links */
+    align-items: center; /* Center the items vertically */
+    height: 60px; /* Set the height of the nav bar */
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase; /* Make text uppercase */
+    letter-spacing: 1.5px; /* Add letter spacing */
+}
+
+nav ul li a:hover {
+    background-color: #575757; /* Darken the background on hover */
+}
