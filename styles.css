@@ -11,6 +11,7 @@ body {
     line-height: 1.6; /* Comfortable line spacing */
     color: #333; /* Darker gray for body text */
     background-color: #f4f4f4; /* Light background color */
+    padding: 20px; /* Add padding to the entire body to keep content away from the edges */
 }
 
 h1, h2, h3 {
