@@ -3,15 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Health Guide</title>
+    <title>Your Website Title</title>
+    <style>
+        /* Basic Reset */
+        body, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Bar Styling */
+        nav {
+            background-color: #333; /* Dark background for the nav */
+            overflow: hidden; /* Clear floats */
+            padding: 0 20px; /* Add some padding to the sides */
+        }
+
+        nav ul {
+            list-style-type: none; /* Remove bullet points */
+            margin: 0;
+            padding: 0;
+            display: flex; /* Use flexbox for alignment */
+            justify-content: space-around; /* Spread out the links */
+            align-items: center; /* Center the items vertically */
+            height: 60px; /* Set the height of the nav bar */
+        }
+
+        nav ul li {
+            float: left; /* Not necessary with flexbox, but included for completeness */
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            background-color: #575757; /* Darken the background on hover */
+        }
+
+        /* Page Content */
+        .content {
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Health Guide</h1>
+
+    <!-- Navigation Bar -->
     <nav>
         <ul>
-            <li><a href="the-body-fat-equation.html">The Body Fat Equation</a></li>
-            <li><a href="energy-hierarchy.html">The Energy Hierarchy</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="body-fat-equation.html">The Body Fat Equation</a></li>
+            <li><a href="energy-hierarchy.html">Energy Hierarchy</a></li>
+            <li><a href="glossary.html">Glossary</a></li> <!-- Add this link if you have a glossary page -->
         </ul>
     </nav>
+
+    <div class="content">
+        <!-- Your page content here -->
+        <h1>Welcome to My Health Guide</h1>
+        <p>This is an example of how to create a modern navigation bar without using JavaScript.</p>
+    </div>
+
 </body>
 </html>
